@@ -1,1 +1,1 @@
-{{data.dateMarkFood && data.dateMarkFood === 'No date' ? '' : `<div class="product-sheet-row"> <div><strong>Date marks</strong></div> `}} {{data.dateMarkFood && data.dateMarkFood === 'No date' ? '' : ` <div>${data.dateMarkFood} : ${data.bestDate}</div> </div>`}}
+<div class="product-sheet-row"> <div> <strong>Date marks</strong> </div> <div>  {{data.dateMarkFood}}: {{data.bestDate || 'no data provided'}} </div> </div>

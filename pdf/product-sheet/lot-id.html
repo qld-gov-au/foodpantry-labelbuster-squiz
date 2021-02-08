@@ -1,1 +1,1 @@
-{{data.batch ? `<div class="product-sheet-row secondary"> <div><strong>Lot identification</strong></div> ` : ''}} {{data.batch ? ` <div>${data.batch}</div> </div>` : ''}}
+<div class="product-sheet-row secondary"> <div> <strong>Lot identification</strong> </div> <div>  {{data.batch || 'no data provided'}} </div> </div>
